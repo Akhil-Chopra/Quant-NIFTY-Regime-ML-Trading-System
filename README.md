@@ -1,6 +1,6 @@
 📈 Quantitative Trading System — NIFTY 50 (5-Minute Data)
-🎯 Objective
 
+🎯 Objective - 
 Build an end-to-end quantitative trading pipeline that combines market regime detection and machine learning to improve trade quality and reduce drawdowns in intraday index trading.
 
 🔹 Project Breakdown (High Level)
