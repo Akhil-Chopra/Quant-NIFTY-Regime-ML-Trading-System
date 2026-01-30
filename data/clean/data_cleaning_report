@@ -1,0 +1,17 @@
+DATA CLEANING REPORT
+
+Task 1.1 – Data Fetching
+- Spot and Futures fetched at 5-minute frequency
+- Options data currently daily snapshot due to NSE limitations
+- Options pipeline supports 5-min data when API available
+
+Task 1.2 – Data Cleaning
+- Missing OHLC values removed
+- Futures rollover handled using nearest expiry
+- ATM strike calculated dynamically from spot close
+- Options filtered to ATM ±1 and ±2 strikes
+- Outliers removed using IV and price thresholds
+
+Limitations
+- Index volume not available from NSE
+- Historical 5-min options data not freely available
